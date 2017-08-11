@@ -1,0 +1,165 @@
+/* CSS Document */
+
+.container-fluid {
+	padding-right:0;
+	padding-left:0;
+	margin-right:auto;
+	margin-left:auto;
+	font-family: "raleway", sans-serif;
+}
+
+/* NavBar */
+
+#nav {
+	margin: 0;
+	padding: 0;
+}
+
+#nav-left {
+	padding: 0;
+}
+
+.navbar {
+	background-color: #fff;
+	border: none;
+}
+
+.navbar-header {
+	padding: 0;
+	margin: 0;
+}
+
+.navbar {
+	margin-bottom: 0;
+	margin: 0;
+	width: 100%;
+	padding: 0;
+}
+
+.navbar-nav {
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-nav li {
+	font-size: 1.3em;
+	padding: 0 0.5em;
+}
+
+.navbar-nav .active a {
+	border-top: 2px solid #368bc1;
+}
+
+.navbar-nav li a {
+	border-top: 2px solid transparent;
+	border-bottom: 2px solid transparent;
+	transition: all 0.5s ease;
+}
+
+.navbar-nav li a:hover {
+	border-top: 2px solid #368bc1;
+	color: #368bc1 !important;
+}
+
+#titleBody-container {
+	margin: 0;
+	padding: 0;
+	background-color: #474747;
+	text-align: center;
+	height: auto;
+	border-bottom: 3px solid #368bc1;
+}
+
+#titleBody .YMlogo {
+	text-align: center;
+	position: relative;
+	z-index: 0;
+	max-width: 50%;
+	opacity: 0.3;
+}
+
+#titleBody h1 {
+	text-align: center;
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translateX(-50%);
+	margin: 0;
+	font-size: 5vw;
+	font-weight: 200;
+	color: #fff;
+}
+
+#titleBody h3 {
+	text-align: center;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translateX(-50%);
+	margin: 0;
+	font-size: 1.5vw;
+	font-weight: 200;
+	color: #fff;
+}
+
+#contentBody-container {
+	margin: 0;
+	padding: 2em 0 5em 0;
+}
+
+#contentBody {
+	text-align: center;
+}
+
+#contentBody-title {
+	margin-bottom: 2em;
+}
+
+#contentBody .profile-small {
+	margin-bottom: 1em;
+}
+
+#contentBody .profile-small img {
+	border: 1px solid #ccc;
+	border-radius: 50em;
+	width: 55vw;
+}
+
+#contentBody .profile {
+	margin-bottom: 1em;
+}
+
+#contentBody .profile img {
+	border: 1px solid #ccc;
+	border-radius: 50em;
+	width: 15vw;
+}
+
+#footer-container {
+	margin: 0;
+	padding: 0;
+	background-color: #474747;
+	border-top: 3px solid #368bc1;
+}
+
+#footer {
+	padding: 1em 0;
+}
+
+#footer h5 a {
+	color: #ccc;
+	transition: all 0.5s ease;
+}
+
+#footer h5 a:hover {
+	color: #368bc1;
+	text-decoration: none;
+}
+
+#footer h5 {
+	text-align: center;
+	margin: 0;
+	padding: 0.2em 0;
+	color: #ccc;
+}/* CSS Document */
+
