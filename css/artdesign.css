@@ -163,3 +163,19 @@
 	color: #ccc;
 }/* CSS Document */
 
+
+@media only screen and (max-width: 500px){
+	#titleBody .YMlogo {
+		text-align: center;
+		position: relative;
+		z-index: 0;
+		max-width: 100%;
+		opacity: 0.3;
+	}
+	
+	#titleBody h1 {
+		font-size: 200%;
+		margin: 0;
+		padding: 0;
+	}
+}
