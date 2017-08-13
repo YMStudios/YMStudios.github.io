@@ -108,21 +108,31 @@
 }
 
 #contentBody {
-	padding: 0;
-	text-align: left;
+	text-align: center;
 }
 
-#newsfeed-container {
-	margin: 0;
-	padding: 0;
+#contentBody-title {
+	margin-bottom: 2em;
 }
 
-.newsfeed {
+#contentBody .profile-small {
+	margin-bottom: 1em;
+}
+
+#contentBody .profile-small img {
 	border: 1px solid #ccc;
-	border-top: 3px solid #368bc1;
-	border-radius: 5px;
-	border-top-left-radius: 0;
-	border-top-right-radius: 0;
+	border-radius: 50em;
+	width: 55vw;
+}
+
+#contentBody .profile {
+	margin-bottom: 1em;
+}
+
+#contentBody .profile img {
+	border: 1px solid #ccc;
+	border-radius: 50em;
+	width: 15vw;
 }
 
 #footer-container {
