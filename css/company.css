@@ -140,6 +140,10 @@
 	border-radius: 5px;
 }
 
+img{
+	width: 70%;
+}
+
 #footer-container {
 	margin: 0;
 	padding: 0;
