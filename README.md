@@ -12,10 +12,22 @@ cd username.github.io
 ```
 Or download from [Here](https://github.com/ymstudios/ymstudios.github.io/zipball/master)
 
+Once you finish editing, please commit everything
 
-#### Push
+#### Add the edited files
+(If all)
 ```bash
 $ git add --all
+```
+
+(If only couple files)
+```bash
+git add [css/filename1]
+git add [html/filename2]
+```
+
+#### Commit
+```bash
 $ git commit -m "Initial commit"
 $ git push -u origin master
 ```
