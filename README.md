@@ -17,7 +17,7 @@ Once you finish editing, please commit everything
 #### Add the edited files
 (If all)
 ```bash
-$ git add --all
+git add --all
 ```
 
 (If only couple files)
@@ -28,8 +28,8 @@ git add [html/filename2]
 
 #### Commit
 ```bash
-$ git commit -m "Initial commit"
-$ git push -u origin master
+git commit -m "Initial commit"
+git push -u origin master
 ```
 
 
