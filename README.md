@@ -32,4 +32,7 @@ git commit -m "Initial commit"
 git push -u origin master
 ```
 
-
+#### Pull (to bring the edits other did)
+```bash
+git pull
+```
