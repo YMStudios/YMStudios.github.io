@@ -8,7 +8,8 @@ How to download git: [Thanks to derhuerst/intro.md] (https://gist.github.com/der
 
 ```bash
 git clone http://github.com/ymstudios/ymstudios.github.io.git
-cd username.github.io
+cd ymstudios.github.io (Mac/Linux)
+dir ymstudios.github.io (Windows)
 ```
 Or download from [Here](https://github.com/ymstudios/ymstudios.github.io/zipball/master)
 
@@ -32,4 +33,7 @@ git commit -m "Initial commit"
 git push -u origin master
 ```
 
-
+#### Pull (to bring the edits other did)
+```bash
+git pull
+```
